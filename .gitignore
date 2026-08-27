@@ -1,0 +1,24 @@
+# Terraform state, plans, working dirs — never commit
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+.terraform/
+.terraform.lock.hcl.bak
+crash.log
+crash.*.log
+
+# Backend configs with any local/sensitive values
+backend/*.local.hcl
+
+# Secret var files
+*.secret.tfvars
+secrets.tfvars
+*.pem
+*.pfx
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
