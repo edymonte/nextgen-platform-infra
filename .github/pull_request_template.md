@@ -1,6 +1,6 @@
 ## Task
 
-<!-- TASK-NNN / TASK-AZ-NNN — link to the task in nextgen_pilot -->
+<!-- TASK-NNN / TASK-AZ-NNN — link to the task in cloud-platform-lab -->
 
 ## What changed
 
